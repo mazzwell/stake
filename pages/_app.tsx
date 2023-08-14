@@ -4,7 +4,7 @@ import "../styles/globals.css";
 import { TaikoEldfellL3 } from "@thirdweb-dev/chains";
 
 // This is the chain your dApp will work on.
-const activeChain = "mumbai";
+const activeChain = "TaikoEldfellL3";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
