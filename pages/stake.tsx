@@ -88,10 +88,10 @@ const Stake: NextPage = () => {
           <hr className={`${styles.divider} ${styles.spacerTop}`} />
           <div className={styles.nftBoxGrid}>
             {ownedNfts?.map((nft) => (
-              <div className={styles.nftBox} key={nft.metadata.id.toString()}>
+              <div className={styles.nftBoxe} key={nft.metadata.id.toString()}>
                 <ThirdwebNftMedia
                   metadata={nft.metadata}
-                  className={styles.nftMedia}
+                  className={styles.nftBox}
                 />
                 <h3>{nft.metadata.name}</h3>
                 <Web3Button
