@@ -86,7 +86,7 @@ const Stake: NextPage = () => {
           </div>
            
           <hr className={`${styles.divider} ${styles.spacerTop}`} />
-          <div className={styles.nftBoxGrid}>
+          <div className={styles.tokenGrid}>
             {ownedNfts?.map((nft) => (
               <div className={styles.nftBox} key={nft.metadata.id.toString()}>
                 <ThirdwebNftMedia
