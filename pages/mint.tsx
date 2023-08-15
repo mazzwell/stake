@@ -12,8 +12,7 @@ const Mint: NextPage = () => {
       <h1 className={styles.h1}>Mint An NFT!</h1>
 
       <p className={styles.explain}>
-        Here is where we use our <b>NFT Drop</b> contract to allow users to mint
-        one of the NFTs that we lazy minted.
+    Mint <b>Morkie Pass</b> For Free and Start Earning Mork ToKen
       </p>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
 
