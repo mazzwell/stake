@@ -33,21 +33,29 @@
 
 .nftBoxGrid {
   width: 1200px;
-  max-width: 95vw;
+  max-width: 1200vw;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 2%;
-  margin-top: 28px;
+  gap: 10%;
+  margin-top: 10px;
   flex-wrap: wrap;
 }
 
 .nftBox {
   border-radius: 16px;
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
   width: 19%;
   min-height: 200px;
+  padding: 16px;
+}
+
+.nftBoxe {
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  width: 35%;
+  min-height: 300px;
   padding: 16px;
 }
 
@@ -87,7 +95,7 @@
 
 /* beneath 800
 */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .nftBoxGrid {
     justify-content: center;
   }
