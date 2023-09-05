@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       {/* Top Section */}
-      <h1 className={styles.h1}>STAKE YOUR NFT</h1>
+      <h1 className={styles.h1}>The fun begins right here</h1>
       <div className={styles.nftBoxGrid}>
         <div
           className={styles.optionSelectBox}
