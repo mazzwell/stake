@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         <div
           className={styles.optionSelectBox}
           role="button"
-          onClick={() => router.push(`https://token.mokie.xyz/`)}
+          onClick={() => router.push(`/stake`)}
         >
           {/* Staking an NFT */}
           <Image src="/icons/token.webp" alt="token" width={64} height={64} />
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
         <div
           className={styles.optionSelectBox}
           role="button"
-          onClick={() => router.push(`/stake`)}
+          onClick={() => router.push(`https://token.mokie.xyz/`)}
         >
           {/* Staking an NFT */}
           <Image src="/icons/tokenx.webp" alt="token" width={64} height={64} />
